@@ -1,20 +1,29 @@
-MARCHULLA Classes Website V2.1 FIX
+MARCHULLA Classes — FINAL DESIGN PASS (V3)
 
-WHY THIS FIX:
-The V2 screenshot showed the inline SVG logo rendering at an uncontrolled size, which broke the page layout.
-This package:
-1. hard-limits the logo dimensions in both HTML and CSS
-2. renames the stylesheet and JavaScript files to avoid browser/GitHub Pages cache reuse
+Upload these FOUR files to the ROOT of the GitHub repository:
+1. index.html                 (replace existing)
+2. marchulla-final.css        (new)
+3. marchulla-final.js         (new)
+4. hero.jpg                   (replace existing if prompted)
 
-UPLOAD THESE 4 FILES TO THE ROOT OF THE GITHUB REPOSITORY:
-- index.html              (replace existing)
-- style-v2.css            (new file)
-- script-v2.js            (new file)
-- hero.jpg                (replace if prompted; otherwise existing copy is fine)
+The old CSS/JS files may remain. This index.html does not use them.
 
-IMPORTANT:
-The old style.css and script.js may remain in the repository; V2.1 no longer references them.
-After committing, wait 1–2 minutes for GitHub Pages and then do a hard refresh:
-Windows Chrome: Ctrl + Shift + R
+After committing:
+- Wait 1–2 minutes for GitHub Pages deployment.
+- Open the live site.
+- Press Ctrl + Shift + R once to force a fresh load.
 
-If the old distorted page still appears, open the site once in Incognito mode.
+DESIGN DIRECTION
+- University-style academic structure and restrained navigation
+- MARCHULLA poster identity: navy/orange, river/mountain atmosphere, Civil Services prominence
+- Boy and girl together in hero visual
+- Compact academic-focus strip instead of commercial icon-heavy layout
+- Mentors presented as academic leadership
+- Compact contact/footer
+
+STILL TO BE PROVIDED BEFORE FINAL PUBLIC LAUNCH
+- Phone / WhatsApp
+- Official email
+- Exact institute address
+- Class timings
+- Approved faculty photographs (the layout is already prepared; initials are temporary)
