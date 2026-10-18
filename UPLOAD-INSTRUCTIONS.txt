@@ -1,0 +1,20 @@
+MARCHULLA Classes Website V2.1 FIX
+
+WHY THIS FIX:
+The V2 screenshot showed the inline SVG logo rendering at an uncontrolled size, which broke the page layout.
+This package:
+1. hard-limits the logo dimensions in both HTML and CSS
+2. renames the stylesheet and JavaScript files to avoid browser/GitHub Pages cache reuse
+
+UPLOAD THESE 4 FILES TO THE ROOT OF THE GITHUB REPOSITORY:
+- index.html              (replace existing)
+- style-v2.css            (new file)
+- script-v2.js            (new file)
+- hero.jpg                (replace if prompted; otherwise existing copy is fine)
+
+IMPORTANT:
+The old style.css and script.js may remain in the repository; V2.1 no longer references them.
+After committing, wait 1–2 minutes for GitHub Pages and then do a hard refresh:
+Windows Chrome: Ctrl + Shift + R
+
+If the old distorted page still appears, open the site once in Incognito mode.
